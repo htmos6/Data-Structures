@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 using namespace std;
 
 template <class T>
@@ -102,11 +102,30 @@ void PostOrder(TreeNode<T>* t, void visit(T& item))
 	}
 }
 
+
+// Use Post order traversal LRN to count leaves
+template <class T>
+void CountLeaf(TreeNode<T>* t, int &count)
+{
+	if (t != NULL)
+	{
+		CountLeaf(t->LeftNode(), count);
+		CountLeaf(t->RightNode(), count);
+
+		if (t->LeftNode() == NULL && t->RightNode() == NULL)
+		{
+			count++;
+		}
+	}
+}
+
+
 template <class T>
 void visit(T& item)
 {
 	cout << item << " ";
 }
+
 
 void NewLine(void)
 {
@@ -115,9 +134,11 @@ void NewLine(void)
 
 
 
+
+
 //
 //
-//Implement Depth, CountLeaf, functions
+//Implement Depth
 //
 //
 
@@ -156,8 +177,4 @@ int minLeafDepth(TreeNode<T>* t)
 
 
 	}
-
-
-
-
 }
