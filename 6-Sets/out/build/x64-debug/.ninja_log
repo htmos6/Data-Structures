@@ -1,0 +1,13 @@
+# ninja log v5
+8	1081	7004470762158336	Sets/Utils/CMakeFiles/Utils.dir/src/Sets.cpp.obj	251b71a78e611b1
+1083	1337	7004470764145307	Sets/Utils/Utils.exe	7432ea3fadfa7497
+13	26	0	clean	21a4d0550fd2b6b1
+12	26	0	clean	21a4d0550fd2b6b1
+7	503	7004471067303102	Sets/Utils/CMakeFiles/Utils.dir/src/Sets.cpp.obj	251b71a78e611b1
+503	678	7004471068541642	Sets/Utils/Utils.exe	7432ea3fadfa7497
+1	10	0	clean	21a4d0550fd2b6b1
+7	430	7004471420039842	Sets/Utils/CMakeFiles/Utils.dir/src/Sets.cpp.obj	251b71a78e611b1
+430	585	7004471421112825	Sets/Utils/Utils.exe	7432ea3fadfa7497
+2	11	0	clean	21a4d0550fd2b6b1
+5	430	7004475518009455	Sets/Utils/CMakeFiles/Utils.dir/src/Sets.cpp.obj	251b71a78e611b1
+431	585	7004475519171640	Sets/Utils/Utils.exe	7432ea3fadfa7497
